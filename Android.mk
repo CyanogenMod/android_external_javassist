@@ -23,7 +23,7 @@ LOCAL_MODULE_TAGS := tests
 # We need classes from the tools dir in the JDK
 LOCAL_CLASSPATH := $(HOST_JDK_TOOLS_JAR)
 
-LOCAL_MODULE := javassistlib
+LOCAL_MODULE := javassist
 
 LOCAL_SRC_FILES := $(call all-java-files-under,src/main)
 
