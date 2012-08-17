@@ -17,9 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-# We only want this apk build for tests.
-LOCAL_MODULE_TAGS := tests
-
 # We need classes from the tools dir in the JDK
 LOCAL_CLASSPATH := $(HOST_JDK_TOOLS_JAR)
 
